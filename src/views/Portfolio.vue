@@ -1,14 +1,15 @@
 <script setup>
 import { ref, watch } from 'vue'
 
+const BASE_URL = import.meta.env.BASE_URL;
 const selectedImage = ref(null)
 
 const openModal = (imageSrc) => {
-    selectedImage.value = imageSrc
+    selectedImage.value = BASE_URL + imageSrc;
 }
 
 const closeModal = () => {
-    selectedImage.value = null
+    selectedImage.value = null;
 }
 
 watch(selectedImage, (val) => {
