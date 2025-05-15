@@ -4,6 +4,7 @@ import { computed } from "vue";
 import { DefaultMenu, ThreeMenu } from "../src/components/nav";
 
 const route = useRoute();
+document.title = "LYS-Portfolio";
 
 const menuComponent = computed(() => {
 	let menu = DefaultMenu;

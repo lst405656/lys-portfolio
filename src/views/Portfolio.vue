@@ -6,7 +6,7 @@ const generateUrlData = (data) => {
     const len = data.length;
 
     for(let i = 0; i < len; i++){
-        const sub = [];
+        const sub = [`${data[i].root}/main.jpg`];
 
         for(let j = 1; j <= data[i].subCount; j++){
             sub.push(`${data[i].root}/sub${j}.jpg`);
