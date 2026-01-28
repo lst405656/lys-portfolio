@@ -6,7 +6,6 @@ export default {
 <template>
     <nav class="sidebar">		
         <router-link class="router-link" to="/">
-            <!-- <img src="/logo.png" alt="홈" class="logo"> -->
             <p class="logo">LYS Port folio</p>
         </router-link>
     </nav>

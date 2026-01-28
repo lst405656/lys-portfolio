@@ -7,7 +7,14 @@ export default {
     <nav class="sidebar">		
         <router-link class="router-link" to="/">
             <p class="logo">LYS Port folio</p>
+        </router-link>
+        <router-link class="router-link" to="/portfolio">
             <p class="logo">Works</p>
+        </router-link>
+        <router-link class="router-link map-link" to="/map">
+            <p class="logo">MAP</p>
+        </router-link>
+        <router-link class="router-link" to="/">
             <p class="logo">About</p>
         </router-link>
     </nav>
@@ -15,9 +22,6 @@ export default {
 
 <style scoped>
 .logo {
-	/* width: 60px;
-	height: auto;
-	transition: transform 0.2s; */
     font-family: "Futura", sans-serif;
     font-size: 24px; 
     font-weight: bold;

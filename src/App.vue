@@ -52,6 +52,7 @@ body {
 	background-color: black;
 	display: flex;
 	margin: 20px;
+	flex-direction: column;
 }
 
 .content {
